@@ -1,0 +1,455 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    color: #202124;
+}
+.header{
+    width:100%;
+    height:151px;
+}
+.top{
+    width:100%;
+    height:50px;
+}
+.locationtext{
+    width:340px;
+    height:50px;
+    float: left;
+    font-weight: 400;
+    font-size: 14px;
+    color: #202124;
+    padding: 3px 0px 0px 3px;
+}
+.locationico{
+    width:20px;
+    height:20px;
+    float: left;
+    padding-top: 17px;
+    margin-left: 516px;
+
+}
+.locationico img{
+    width:13px;
+    height:13px;
+}
+.locationbutton{
+    width: 100px;
+    height: 40px;
+    float: left;
+    padding:10px 0px 0px 20px;
+}
+.locationbutton button{
+    color:white;
+    background-color: black;
+    border-radius: 500px;
+    height: 30px;
+    width:99px;
+    font-size: 12px;
+    font-weight:bold;
+}
+.line{
+    width:100%;
+    height:1px;
+    background-color:#E5E5E5;
+
+}
+.nav{
+    width:100%;
+    height:100px;
+    display: flex;
+}
+
+.logo{
+    width:75px;
+    height:25px;
+    margin-left:132px;
+    padding-top: 38px;
+    
+}
+.logo img{
+    width:75px;
+    height:25px;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+.menu{
+    width:40px;
+    height:40px;
+    padding: 28px 30px 0px 44px;
+    font-size: 14px;
+    font-weight:600;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.deals{
+    width:40px;
+    height:40px;
+    padding: 28px 30px 0px 5px;
+    font-size: 14px;
+    font-weight:600;
+}
+.deals:hover{
+    cursor: pointer;
+}
+.space{
+    width: 800px;
+    height: 98px;
+}
+
+.cartimg{
+    width:20px;
+    height:50px;
+
+}
+.cartimg img{
+    width:50px;
+    height:50px;
+    padding:24px 0px 0px 0px;
+}
+.cartvalue{
+    width:16px;
+    height:20px;
+    padding:42px 0px 0px 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.vline{
+    width:20px;
+    height:50px;
+    font-size: 28px;
+    padding:32px 0px 0px 7px;
+    color:#E5E5E5
+}
+.signin{
+    width:50px;
+    height:30px;
+    font-size: 13px;
+    font-weight: bold;
+    padding:28px 0px 0px 5px;
+}
+.profile{
+    width:30px;
+    height:30px;
+    padding:39px 0px 0px 15px;
+}
+.profile img{
+    width:20px;
+    height:20px;
+}
+.order{
+    width:100%;
+    height:69px;
+    background-color:#202124;
+    display: flex;
+}
+.ordertext{
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-left: 509px;
+    padding-top: 25px;
+}
+.orderbutton{
+    width: 100px;
+    height: 40px;
+    padding:12px 0px 0px 10px;
+}
+.orderbutton button{
+    color:white;
+    background-color:#E4002B;
+    border-radius: 500px;
+    height: 45px;
+    font-weight: 700;
+    border:none;
+    width:150px;
+    font-size: 13px;
+}
+.banner{
+    width: 100%;
+    height:421px;
+}
+.banner img{
+    width: 100%;
+    height:421px;
+}
+.welcome{
+    height:141px;
+    width:100%;
+    background-color:#F8F7F5;
+}
+.threeline img{
+    width:50px;
+    height:24px;
+    padding-left: 195px;
+
+}
+.welcomeheading{
+    font-size:30px;
+    font-weight: bolder;
+    padding:30px 0px 0px 196px;
+}
+.browsecategories{
+    width:1239px;
+    height: 771px;
+
+    padding: 110px 0px 0px 280px;
+}
+.browsetext{
+    font-size:25px;
+    width: 315px;
+    font-weight: bolder;
+    float: left;
+}
+.longline img{
+    width:825px;
+    height: 25px;
+}
+
+.card{
+    width:1152px;
+    height:286px;
+    margin-top: 70px;
+}
+
+.browse{
+    width:270px;
+    height:270px;
+    background-color: #F8F7F5;
+    border-radius: 5px;
+    float: left;
+}
+.browsehead{
+    width:175px;
+    font-size: 15px;
+    padding:0;
+    color: black;
+    margin: 23px 0px 0px 60px;
+}
+.browse img{
+    width:270px;
+    height: 200px;
+    border-radius:5px 5px 0px 0px;
+}
+.description{
+    width:165px;
+}
+.browse2{
+    width:270px;
+    height:270px;
+    background-color: #F8F7F5;
+    border-radius: 5px;
+    float: left;
+    margin-left:24px;
+}
+.browse2 img{
+    width:270px;
+    height: 200px;
+    border-radius:5px 5px 0px 0px;
+}
+.card2{
+    width:1152px;
+    height:286px;
+    margin-top: 15px;
+    padding-bottom: 100px;
+}
+.content2{
+    width:100%;
+    height:720px;
+    background-color: #202124;
+}
+.threelineblack img{
+    width:85px;
+    height:42px;
+    padding-left:225px;
+
+}
+.browsecategories2{
+    width:1239px;
+    height: 771px;
+
+    padding: 61px 0px 0px 227px;
+}
+.browsetext2{
+    font-size:25px;
+    width: 315px;
+    font-weight: bolder;
+    float: left;
+    color:white;
+}
+.card3{
+    width:1152px;
+    height:286px;
+    margin-top: 88px;
+}
+
+.browse3{
+    width:297px;
+    height:390px;
+    background-color: #F8F7F5;
+    border-radius: 5px;
+    float: left;
+}
+.browse3head{
+    width:270px;
+    font-size: 25px;
+    padding:0;
+    color: black;
+    margin: 5px 0px 0px 15px;
+    color: #E4002B;
+    font-weight: bolder;
+}
+.browse3 img{
+    width:297px;
+    height: 230px;
+    border-radius:5px 5px 0px 0px;
+}
+.description2{
+    width:270px;
+}
+
+.browse3text{
+    font-size: 12px;
+    font-weight: bold;
+    color: #37383A;
+    margin-left: 20px;
+}
+.viewdetails{
+    margin-left: 20px;
+    margin-top:15px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 82px;
+    float: left;
+}
+.redeem button{
+    width: 120px;
+    height: 40px;
+    border-radius: 500px;
+    font-size: 12px;
+    font-weight:550;
+    float: right;
+    border-width:1px;
+    border-color:black;
+    
+}
+.browse4{
+    width:297px;
+    height:390px;
+    background-color: #F8F7F5;
+    border-radius: 5px;
+    float: left;
+    margin-left: 40px;
+}
+
+.browse4 img{
+    width:297px;
+    height: 230px;
+    border-radius:5px 5px 0px 0px;
+}
+.redeem button:hover{
+    background-color:black;
+    color:white;
+}
+.browsetext5{
+    font-size:15px;
+    width: 315px;
+    font-weight: bolder;
+    float: right;
+    color:white;
+}
+
+.footer{
+    width:100%;
+    height:336px;
+    background-color:grey;
+}
+.footer1{
+    width:100%;
+    height:210px;
+    background-color:#202124;
+    display: flex;
+}
+.footerlogo img{
+    width:60px;
+    height:60px;
+    padding: 50px 96px 0px 126px;
+}
+.kfcfood{
+    height:150px;
+    width:124px;
+    background-color:#202124;
+    margin-left: 25px;
+    margin-top: 40px;
+    padding:0;
+}
+.kfcfood ul{
+    list-style-type: none;
+    font-size: 13px;   
+    padding:0;
+     
+}
+.kfcfood ul li{
+    padding-bottom: 14px;
+    color: white;
+    font-weight:400;
+}
+.footerlocationico img{
+    width:16px;
+    height:16px;
+    margin-top: 55px;
+    margin-left:44px;
+    margin-right:5px;
+}
+.footerlocationico{
+    color:white;
+    font-size: 13px;
+    width:140px;
+}
+.playstoreico img{
+    width:120px;
+    height:120px;
+    margin-left:96px;
+    margin-top:10px;
+}
+.appstoreico img{
+    width:120px;
+    height:120px;
+    margin-left:25px;
+    margin-top:10px;
+}
+.footer2{
+    width:100%;
+    height:126px;
+    background-color:#202124;
+    display: flex;
+}
+.ft2text{
+    color:white;
+    margin-left:548px;
+    margin-top:88px;
+    font-size: 12px;
+}
+.lastspace{
+    width:422px;
+    height:125px;
+}
+.lastico img{
+    margin-top:78px;
+    margin-left:14px;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  ::-webkit-scrollbar-track {
+    background: none; 
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background:none; 
+  }
